@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aroma Cafe</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" href="./images/icon.jpg" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <span class="icon"
+            ><i
+              class="fa-solid fa-seedling"
+              style="font-size: 28px; padding-top: 32%"
+            ></i>
+          </span>
+        </div>
+        <div class="content">
+          <div class="inner">
+            <h1>Aroma Cafe</h1>
+            <!-- <p>TAGLINE</p> -->
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#hours">Hours</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Follow Us</a></li>
+            <!--<li><a href="#elements">Elements</a></li>-->
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- menu -->
+        <article id="menu">
+          <h2 class="major">Menu</h2>
+
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="./images/food_02.jpg" alt="" style="width: 100%" />
+              </div>
+
+              <div class="item">
+                <img src="./images/food_03.jpg" alt="" style="width: 100%" />
+              </div>
+
+              <div class="item">
+                <img src="./images/food_04.jpg" alt="" style="width: 100%" />
+              </div>
+
+              <div class="item">
+                <img src="./images/food_05.jpg" alt="" style="width: 100%" />
+              </div>
+
+              <div class="item">
+                <img src="./images/food_06.jpg" alt="" style="width: 100%" />
+              </div>
+            </div>
+          </div>
+
+          <!-- <p>
+            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
+            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
+            convallis, porttitor magna ullamcorper, amet egestas mauris.
+          </p> -->
+
+          <div class="tab">
+            <h3 class="tablinks active" onclick="openMenu(event, 'Drinks')">
+              Drinks
+            </h3>
+            <h3 class="tablinks" onclick="openMenu(event, 'Food')">Plates</h3>
+            <h3 class="tablinks" onclick="openMenu(event, 'Other')">Main</h3>
+          </div>
+
+          <div id="Drinks" class="tabcontent">
+            <!-- <h3>London</h3>
+            <p>London is the capital city of England.</p> -->
+
+            <div class="menu-items">
+              <div class="">
+                <div>
+                  <h3>Aroma Classique</h3>
+                  <ul>
+                    <li>Americano</li>
+                    <li>Latte</li>
+                    <li>Cappuccino</li>
+                    <li>Dry Cappuccino</li>
+                    <li>Dark Mocha</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3>Aroma Unique</h3>
+                  <ul>
+                    <li>Macadamia Latte</li>
+                    <li>Vanilla Macciato</li>
+                    <li>Mochaccino</li>
+                    <li>Soy Caramel Macciato</li>
+                    <li>Coffee Jelly</li>
+                    <li>Affogato</li>
+                    <li>Dark Peppermint Mocha</li>
+                    <li>Aroma Coffee</li>
+                    <li>Hazelnut Latte</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="">
+                <div>
+                  <h3>Aroma Frais</h3>
+                  <ul>
+                    <li>Lemon Refresher</li>
+                    <li>Kiwi Refresher</li>
+                    <li>Strawberries and Cream</li>
+                    <li>Matcha Cream</li>
+                    <li>Blueberry Matcha</li>
+                    <li>Hibiscus Leaf</li>
+                    <li>Chamomile Flower</li>
+                    <li>Thai Coconut Mango</li>
+                    <li>Very Peri</li>
+                    <li>Aroma Iced Tea</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>Aroma Monde</h3>
+                  <ul>
+                    <li>Sagada Pour Over Coffee</li>
+                    <li>UJI Japanese Matcha</li>
+                    <li>Italian Mocha</li>
+                    <li>Thai Tea</li>
+                    <li>American Chocolate</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="Food" class="tabcontent">
+            <div class="menu-items">
+              <div class="">
+                <div>
+                  <h3>Small Plates</h3>
+                  <ul>
+                    <li>Aroma Calamares</li>
+                    <li>Chicken Fingers</li>
+                    <li>Nachos Overload</li>
+                    <li>French Fries</li>
+                    <li>Buffalo Wings</li>
+                    <li>Beef Quesadillas</li>
+                    <li>Cheese Quesadillas</li>
+                    <li>Chicken Quesadillas</li>
+                    <li>Fish Sticks and Chips</li>
+                    <li>Aroma Poutine</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>Salads</h3>
+                  <ul>
+                    <li>Aroma Salad</li>
+                    <li>Kani Salad</li>
+                    <li>Chicken Caesar Salad</li>
+                    <li>Mediterranean Salad</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="">
+                <div>
+                  <h3>Handhelds</h3>
+                  <ul>
+                    <li>Chicken Karaage</li>
+                    <li>Avocadabra</li>
+                    <li>Smokey Sausage Teriyaki</li>
+                    <li>Aroma Burger</li>
+                    <li>Aroma All Meat Clubhouse</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>All Day Breakfast</h3>
+                  <ul>
+                    <li>Harvest Plate</li>
+                    <li>Farmer's Breakfast</li>
+                    <li>Harvest Omelette</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>Pancakes and Waffles</h3>
+                  <ul>
+                    <li>Banana Brulee</li>
+                    <li>Fresh Harvest</li>
+                    <li>Aroma Pancakes</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="Other" class="tabcontent">
+            <div class="menu-items">
+              <div class="">
+                <div>
+                  <h3>Pasta</h3>
+                  <ul>
+                    <li>Bolognese</li>
+                    <li>Alfredo</li>
+                    <li>Spanish Sardines</li>
+                    <li>Marinara</li>
+                    <li>Baked Spaghetti</li>
+                    <li>Baked Mac</li>
+                    <li>Carbonara</li>
+                    <li>Penne Pesto and Chicken</li>
+                    <li>Seefood Aglio E Oglio</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="">
+                <div>
+                  <h3>Entrees</h3>
+                  <ul>
+                    <li>Rib Eye Steak</li>
+                    <li>Pork Steak</li>
+                    <li>Salisbury Steak</li>
+                    <li>Chicken Parmigiana</li>
+                    <li>Salmon Steak</li>
+                    <li>Beef Salpicao</li>
+                    <li>Roast Beef</li>
+                    <li>Grilled Chicken Teriyaki</li>
+                    <li>Aroma Pork Barbeque Ribs</li>
+                    <li>Crispy Pork Belly</li>
+                    <li>Aroma Crispy Chicken Quarter</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Hours -->
+        <article id="hours">
+          <h2 class="major">Hours</h2>
+          <span class="image main"><img src="images/bg_01.jpg" alt="" /></span>
+          <h3>
+            22 Magsaysay Drive <br />New Asinan, Olongapo City <br />
+            (047) 232 - 7120
+          </h3>
+          <table>
+            <tr>
+              <td>Mondays to Fridays</td>
+              <td>3:00 pm to 11:00 pm</td>
+            </tr>
+            <tr>
+              <td>Saturdays & Sundays</td>
+              <td>3:00 pm to 11:30 pm</td>
+            </tr>
+          </table>
+        </article>
+
+        <!-- Events -->
+        <article id="events">
+          <h2 class="major">Events</h2>
+          <span class="image main"><img src="images/bg_03.jpg" alt="" /></span>
+          <p>
+            Enjoy an intimate and private ambiance on your next function. We
+            have hosted celebration parties, reunions, large meetings and
+            workshops in our dining room.
+            <br />
+            <br />
+            Let us help you plan your next event. Our facility can accommodate
+            parties of up to 100 people.
+            <br />
+            <br />
+            For more information, contact us at (047) 232-7120 or send a message
+            to our Instagram Account:
+            <a href="https://www.instagram.com/aromacafeph/">@AromaCafePH</a>
+          </p>
+        </article>
+
+        <!-- Contact -->
+        <article id="contact">
+          <h2 class="major">Follow Us</h2>
+          <span class="image main"
+            ><img src="images/staff_02.jpg" alt=""
+          /></span>
+          <ul class="icons">
+            <!-- <li>
+              <a href="#" class="icon brands fa-twitter"
+                ><span class="label">Twitter</span></a
+              >
+            </li> -->
+            <li>
+              <a
+                href="https://www.facebook.com/aromacafeph/"
+                class="icon brands fa-facebook-f"
+                ><span class="label">Facebook</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/aromacafeph/"
+                class="icon brands fa-instagram"
+                ><span class="label">Instagram</span></a
+              >
+            </li>
+          </ul>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">&copy; Since 2021</p>
+        <span id="credits">Design by ajlkn</span>
+      </footer>
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/45c1e1a982.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
